@@ -1,0 +1,225 @@
+body {
+    background-color: rgb(245, 245, 220); /* Бежевый цвет */
+    color: rgb(0, 23, 66); /* Тёмно зелёный цвет текста */
+    font-family: Vollkorn, sans-serif;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; /* Убираем маркеры списка */
+}
+
+a {
+    color: rgb(0, 23, 66);; /* Цвет текста ссылок */
+    text-decoration: none; /* Убираем подчёркивание ссылок */
+}
+
+footer {
+    text-align: center;
+}
+
+.header-title {
+    background-color: rgb(0, 23, 66); /* выберите желаемый цвет фона */
+    font-family: Vollkorn, sans-serif;
+    padding: 10px 20px; /* установите нужные отступы */
+    width: 100%;
+    box-sizing: border-box;
+    color:white;
+    font-size: 28px;
+    
+}
+
+.header-title h1 {
+    text-align: center;
+}
+
+
+.menu a{
+    color: rgb(0, 23, 66);
+    padding: 5px 2px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+.menu ul li{
+    list-style-type: none;
+    padding: 5px 10px;
+
+}
+
+.menu h3{
+    color: rgb(0, 23, 66); 
+    font-family: Vollkorn, sans-serif;
+    text-align: center;
+    font-size: 26px;
+
+}
+
+.main-page-message img{
+    width: 100%;
+    max-height: auto;
+    object-fit: cover; /* Содержимое изображения не будет искажаться */
+}
+.main-page-message p{
+    color: black;
+    text-align: center;
+    font-family: Vollkorn, sans-serif;
+    font-size: 45px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Создаем сетку из 3 столбцов */
+    gap: 20px; /* Промежуток между карточками */
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover; /* Содержимое изображения не будет искажаться */
+}
+
+
+.book-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.book-card p {
+    margin: 5px 0;
+}
+
+.book-card a {
+    display: inline-block;
+    background-color: rgb(0, 23, 66);
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.book-card-main-page {
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: left;
+    
+
+}
+.book-card-main-page img {
+    width: auto;
+    max-height: 500px;
+    display: block;/* Содержимое изображения не будет искажаться */
+    margin: auto;
+    padding-bottom: 20px;
+}
+.book-card-main-page a {
+    display: inline-block;
+    background-color: lightgray;
+    color: rgb(0, 23, 66);
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.book-page img{
+    width: auto;
+    max-height: 800px;
+    margin: 0 auto;
+    display: block;
+    margin: auto;
+}
+
+.book-page{
+    padding-left: 400px; /* Отступ текста слева */
+    padding-right: 400px; /* Отступ текста справа */
+}
+.book-page p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.book-page h2{
+    font-size: 30px;
+}
+
+.book-page ul{
+    font-size: 20px;
+    list-style-type: none;
+    
+}
+
+.book-page ul li{
+    padding-left: 20px; /* Добавляем отступ слева для места иконки */
+    background: url('https://w7.pngwing.com/pngs/663/8/png-transparent-paper-quill-inkwell-pens-fountain-pen-pero-ink-leaf-black.png') no-repeat left center; /* Заменяем маркер на иконку */
+    background-size: 16px; /* Размер иконки */
+    line-height: 1.5; /* Выравниваем текст по вертикали */
+    
+}
+
+.book-page-cover img{
+    width: auto;
+    max-height: 800px;
+    margin: 0 auto;
+}
+
+.book-page-container{
+    display: flex;
+    justify-content: center;
+}
+
+.book-page-description{
+    width: 500px; 
+    height: 800px; 
+    background-color: rgb(0, 23, 66); 
+    color: white;
+    margin: 0 10px; 
+    text-align: left;
+    font-size: 26px;
+
+    padding-left: 20px; /* Отступ текста слева */
+    padding-right: 20px; /* Отступ текста справа */
+
+}
+
+.carousel-item img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover; /* Центрируем изображение по горизонтали и вертикали */
+}
+
+.BestSellers h2{
+    margin-top: 20px; /* Отступ сверху */
+    margin-bottom: 20px;
+    padding-left: 30px; /* Отступ снизу */
+    font-size: 32px; /* Размер шрифта заголовка */
+    font-weight: bold; /* Жирный шрифт */
+    text-align: Left; /* Выравнивание текста по центру */
+}
+
+.grid-container-main-page{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Создаем сетку из 3 столбцов */
+    gap: 20px; /* Промежуток между карточками */
+}
+

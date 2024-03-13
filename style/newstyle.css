@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(245, 245, 220); /* Бежевый цвет */
+    color: rgb(0, 23, 66); /* Тёмно зелёный цвет текста */
+    font-family: Vollkorn, sans-serif;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; /* Убираем маркеры списка */
+}
+
+a {
+    color: darkgreen; /* Цвет текста ссылок */
+    text-decoration: none; /* Убираем подчёркивание ссылок */
+}
+
+footer {
+    text-align: center;
+}
+
+.header-title {
+    background-color: rgb(0, 23, 66); /* выберите желаемый цвет фона */
+    font-family: Vollkorn, sans-serif;
+    padding: 10px 20px; /* установите нужные отступы */
+    width: 100%;
+    box-sizing: border-box;
+    color:white;
+    font-size: 28px;
+}
+
+.header-title h1 {
+    text-align: center;
+}
+
+
+.menu a{
+    color: rgb(0, 23, 66);
+    padding: 5px 2px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu h3{
+    color: rgb(0, 23, 66); 
+    font-family: Vollkorn, sans-serif;
+    text-align: center;
+    font-size: 26px;
+
+}
+
+.main-page-message img{
+    width: 100%;
+    max-height: auto;
+    object-fit: cover; /* Содержимое изображения не будет искажаться */
+}
+.main-page-message p{
+    color: black;
+    text-align: center;
+    font-family: Vollkorn, sans-serif;
+    font-size: 45px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Создаем сетку из 3 столбцов */
+    gap: 20px; /* Промежуток между карточками */
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.book-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover; /* Содержимое изображения не будет искажаться */
+}
+
+
+.book-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.book-card p, a , h3{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    font: italic;
+    line-height: 16px;
+}
+
+.book-card-main-page {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+
+}
+.book-card-main-page img {
+    width: auto;
+    max-height: 500px;
+    display: block;/* Содержимое изображения не будет искажаться */
+    margin: auto;
+}
+.book-card-main-page a {
+    padding-top: 100px;
+    font-size: 22px;
+}
+
+.book-page img{
+    width: auto;
+    max-height: 800px;
+    margin: 0 auto;
+    display: block;
+    margin: auto;
+}
+
+.book-page{
+    padding-left: 400px; /* Отступ текста слева */
+    padding-right: 400px; /* Отступ текста справа */
+    
+}
+.book-page p, ul{
+    font-family: Italic, sans-serif;
+    font-size: 16px;
+    font-weight:  400;
+    line-height: 24px;
+    text-align: left;
+    color:black; 
+}
+
+.book-page h2, h3{
+    color:black; 
+    font-size: 18px;
+    font: weight 400px;
+}
+
+
+
